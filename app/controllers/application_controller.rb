@@ -1,5 +1,5 @@
 # require "sinatra"
-require_relative "./config/environment"
+# require_relative "./config/environment"
 
 class ApplicationController < Sinatra::Base
     get '/' do
@@ -7,4 +7,4 @@ class ApplicationController < Sinatra::Base
       end
 end
 
-run ApplicationController
+# run ApplicationController
